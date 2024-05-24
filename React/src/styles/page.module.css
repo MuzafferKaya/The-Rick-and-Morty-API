@@ -1,0 +1,19 @@
+.header{
+    height: 400px;
+}
+
+.characterCard{
+    max-width: 540px;
+}
+
+.episodeHeader{
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
