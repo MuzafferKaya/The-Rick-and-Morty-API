@@ -1,1 +1,1 @@
-# KonusarakOgren
+# The-Rick-and-Morty-API
