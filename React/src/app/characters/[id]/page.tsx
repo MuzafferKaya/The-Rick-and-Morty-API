@@ -44,7 +44,8 @@ const Home: React.FC = () => {
             });
 
             const episodeResponse = await fetch(`https://rickandmortyapi.com/api/episode/${episodeIds.join(',')}`);
-            setEpisodes(await episodeResponse.json());
+            const episodeData = await episodeResponse.json();
+            setEpisodes(Array.isArray(episodeData) ? episodeData : [episodeData]);
             setCharacter(data);
         };
 
